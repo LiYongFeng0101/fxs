@@ -1,0 +1,139 @@
+@charset="utf-8";
+html{
+    font-size:100px;
+}
+body{
+    width:100%;
+    height:100%;
+    background:#eee;
+    font-size:12px;
+}
+header{
+    width:100%;
+    height:0.4rem;
+    background:#fff;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:center;
+    border-bottom:1px solid #eee;
+}
+header form{
+    display:block;
+    width:90%;
+    height:0.25rem;
+    background:#eee;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    position:relative;
+    border-radius:0.1rem;
+}
+header form img:nth-of-type(1){
+    display:block;
+    width:0.135rem;
+    height:0.135rem;
+    margin-left: 0.1rem;
+
+}
+header form img:nth-of-type(2){
+    display:block;
+    width:0.09rem;
+    height:0.12rem;
+    position:absolute;
+    right:0.05rem;
+}
+.title{
+    width:100%;
+    height:1.1rem;
+    background:#fff;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: center;
+}
+.title img{
+    width:0.925rem;
+    height:0.925rem;
+}
+.con{
+    width:100%;
+    height:6.5rem;
+    margin-top:0.1rem;
+    background:#fff;
+}
+.con ul{
+    width:100%;
+    height:6.1rem;
+}
+.con ul li{
+    width:100%;
+    height:1.51rem;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    border-bottom:1px solid #eee;
+    box-sizing:border-box;
+}
+.con ul li a{
+    display:block;
+    box-sizing:border-box;
+    width:50%;
+    height:1.5rem;
+    position:relative;
+}
+.con ul li a:nth-of-type(2){
+    border-left:1px solid #eee;
+}
+.con ul li a img{
+    width:1.09rem;
+    height:0.855rem;
+    position:absolute;
+    bottom:0.1rem;
+    right:0.2rem;
+}
+.con ul li a p{
+    color:#1c1c1c;
+    font-size:0.15rem;
+    margin-left:0.1rem;
+    margin-top:0.05rem;
+}
+.con ul li a p:nth-of-type(2){
+    color:#c0c0c0;
+    font-size:0.12rem;
+}
+
+
+
+
+
+
+
+footer{
+    width:100%;
+    height:0.49rem;
+    background:#fff;
+    position:fixed;
+    bottom: 0px;
+    box-shadow: 0px -2px 8px #ccc;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: center;
+    text-align:center;
+    font-size:0.1rem;
+}
+footer a p{
+    color:#515151;
+    font-size:0.1rem;
+}
+footer a .iconfont{
+    color:#515151;
+    font-size:0.2rem;
+}
+.icon-fenlei{
+    color:#65a032 !important;
+}
+footer a:nth-of-type(2) p{
+    color:#65a032;
+}

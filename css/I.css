@@ -1,0 +1,220 @@
+@charset="utf-8";
+html{
+    font-size:100px;
+}
+body{
+    font-family:"微软雅黑";
+    font-size:10px;
+    background:#eee;
+}
+header{
+    width:100%;
+    height:1.45rem;
+    box-sizing:border-box;
+    background:url(../image/w-head.png) no-repeat center top;
+    background-size:100%;
+    position:relative;
+}
+header img{
+    width:0.18rem;
+    height:0.17rem;
+    float: right;
+    margin-right: 0.1rem;
+    margin-top: 0.1rem;
+}
+header p{
+    position:absolute;
+    font-size:0.16rem;
+    color:#fff;
+    top:0.8rem;
+    left:1rem;
+}
+.about_wallet{
+    width:100%;
+    height:0.75rem;
+    background:#fff;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-around;
+}
+.about_wallet a{
+    text-align:center;
+}
+.about_wallet a span{
+    color:#1d1d1d;
+    font-size:0.16rem;
+}
+.about_wallet a p{
+    color:#676767;
+    font-size:0.14rem;
+}
+.order{
+    width:100%;
+    height:1.04rem;
+    background:#fff;
+    margin-top:0.1rem;
+}
+.order .title{
+    width:100%;
+    height:0.4rem;
+    border-bottom:1px solid #eee;
+    display:flex;
+    align-items: center;
+    position:relative;
+}
+.order .title>img{
+    width:0.2rem;
+    height:0.2rem;
+    margin-left:0.1rem;
+}
+.order .title p:nth-of-type(1){
+    color:#1c1c1c;
+    font-size:0.16rem;
+    margin-left:0.1rem;
+}
+.order .title p:nth-of-type(2){
+    color:#c0c0c0;
+    font-size:0.12rem;
+    position:absolute;
+    right:0.1rem;
+    line-height: 0.4rem;
+}
+.order .title p:nth-of-type(2) img{
+    width:0.085rem;
+    height:0.15rem;
+    vertical-align: middle;
+}
+.order .t-con{
+    width:100%;
+    height:0.64rem;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-around;
+    text-align:center;
+
+}
+.order .t-con a img{
+    width:0.21rem;
+    height:0.18rem;
+}
+.order .t-con a p{
+    font-size:0.14rem;
+    color:#515151;
+    line-height:0.3rem;
+}
+.order1{
+    height:2.5rem;
+}
+.order1 .title{
+    height:0.5rem;
+}
+footer{
+    width:100%;
+    height:0.49rem;
+    background:#fff;
+    position:fixed;
+    bottom: 0px;
+    box-shadow: 0px -2px 8px #ccc;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: center;
+    text-align:center;
+    font-size:0.1rem;
+}
+footer a p{
+    color:#515151;
+    font-size:0.1rem;
+}
+footer a .iconfont{
+    color:#515151;
+    font-size:0.2rem;
+}
+.icon-me-active{
+    color:#65a032 !important;
+}
+footer a:nth-of-type(5) p{
+    color:#65a032;
+}
+@media only screen and (min-width: 320px){
+  html {
+    font-size: 100px !important;
+  }
+  .about_wallet{
+    margin-top:-0.2rem;
+}
+.order1{
+    margin-bottom:0.5rem;
+}
+header p{
+    top:0.65rem;
+    left:0.8rem;
+}
+
+}
+@media only screen and (min-width: 360px){
+  html {
+    font-size: 105px !important;
+  }
+  .order1{
+    margin-bottom:0.48rem;
+}
+.about_wallet{
+    margin-top:-0.12rem;
+}
+header p{
+    top:0.7rem;
+    left:0.85rem;
+}
+}
+@media only screen and (min-width: 375px){
+  html {
+    font-size: 100px !important;
+  }
+  header p{
+    top:0.8rem;
+    left:1rem;
+}
+}
+@media only screen and (min-width:412px){
+  html {
+    font-size: 120px !important;
+  }
+  .order1{
+    margin-bottom:0.5rem;
+}
+header p{
+    top:0.7rem;
+    left:0.9rem;
+}
+}
+@media only screen and (min-width:414px){
+  html {
+    font-size: 120px !important;
+  }
+}
+
+
+@media only screen and (min-width: 750px){
+  html {
+    font-size: 180px !important;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  html {
+    font-size: 185px !important;
+  }
+  header p{
+    top:0.85rem;
+    left:1.05rem;
+}
+}
+
+@media only screen and (min-width: 1024px){
+  html {
+    font-size: 250px !important;
+  }
+}
